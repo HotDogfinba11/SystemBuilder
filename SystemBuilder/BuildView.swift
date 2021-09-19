@@ -23,6 +23,7 @@ struct BuildView: View {
             .padding()
             .frame(minWidth: 320, minHeight: 200, maxHeight: 200)
         }
+        .navigationTitle("Build")
     }
 }
 
