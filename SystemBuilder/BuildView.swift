@@ -20,6 +20,7 @@ struct BuildView: View {
                                 visualType: .filled(color: .yellow, lineWidth: 5))
                 
             }
+            .padding()
         }
     }
 }
