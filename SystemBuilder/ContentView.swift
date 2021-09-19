@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var ShowingView = true
+    
     var body: some View {
         NavigationView {
             VStack {
                 List {
                     Section(header: Text("System Builder")) {
-                        NavigationLink(destination: AutomatedView()){
+                        NavigationLink(destination: AutomatedView(), isActive: $ShowingView){
                             Label("Build", systemImage: "macpro.gen3")
                         }
                         NavigationLink(destination: FavouritedView()) {
