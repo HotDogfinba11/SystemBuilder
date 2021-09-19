@@ -15,6 +15,7 @@
 		8616B8EE26F74AF900F59897 /* FavouritedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616B8ED26F74AF900F59897 /* FavouritedView.swift */; };
 		8616B8F026F74E6E00F59897 /* BuildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616B8EF26F74E6E00F59897 /* BuildView.swift */; };
 		8616B8F326F74EE100F59897 /* LightChart in Frameworks */ = {isa = PBXBuildFile; productRef = 8616B8F226F74EE100F59897 /* LightChart */; };
+		8616B8F726F7528F00F59897 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616B8F626F7528F00F59897 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8616B8EB26F7494400F59897 /* AutomatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatedView.swift; sourceTree = "<group>"; };
 		8616B8ED26F74AF900F59897 /* FavouritedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritedView.swift; sourceTree = "<group>"; };
 		8616B8EF26F74E6E00F59897 /* BuildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildView.swift; sourceTree = "<group>"; };
+		8616B8F626F7528F00F59897 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				8616B8DD26F746B500F59897 /* SystemBuilderApp.swift */,
+				8616B8F626F7528F00F59897 /* SettingsView.swift */,
 				8616B8DF26F746B500F59897 /* ContentView.swift */,
 				8616B8ED26F74AF900F59897 /* FavouritedView.swift */,
 				8616B8EF26F74E6E00F59897 /* BuildView.swift */,
@@ -157,6 +160,7 @@
 				8616B8E026F746B500F59897 /* ContentView.swift in Sources */,
 				8616B8DE26F746B500F59897 /* SystemBuilderApp.swift in Sources */,
 				8616B8EC26F7494400F59897 /* AutomatedView.swift in Sources */,
+				8616B8F726F7528F00F59897 /* SettingsView.swift in Sources */,
 				8616B8F026F74E6E00F59897 /* BuildView.swift in Sources */,
 				8616B8EE26F74AF900F59897 /* FavouritedView.swift in Sources */,
 			);
