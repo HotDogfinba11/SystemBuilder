@@ -9,7 +9,17 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            Form {
+                Section(header: Text("Retailers"),
+                        footer: Text("Disabing retailers will prevent the automatic PC builder from using said retailer.")) {
+                    Toggle(isOn: .constant(true),
+                           label: {
+                        Text("Amazon")
+                    })
+                }
+            }
+        }
     }
 }
 
