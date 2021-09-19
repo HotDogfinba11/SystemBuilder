@@ -10,7 +10,17 @@ import LightChart
 
 struct BuildView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            GroupBox(
+                label: Label("Average price over time", systemImage: "sterlingsign.square.fill")
+                    .foregroundColor(.green)
+            ){
+                LightChartView(data: [2, 30, 9, 23, 10, 20, 15, 17, 6, 23],
+                                type: .curved,
+                                visualType: .filled(color: .yellow, lineWidth: 5))
+                
+            }
+        }
     }
 }
 
