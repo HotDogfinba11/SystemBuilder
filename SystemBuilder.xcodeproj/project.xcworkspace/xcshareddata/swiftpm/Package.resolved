@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LightChart",
+        "repositoryURL": "https://github.com/sanengineer/LightChart",
+        "state": {
+          "branch": "master",
+          "revision": "cfdf57741a7174a5fa4a6205d70af8bc350658f9",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

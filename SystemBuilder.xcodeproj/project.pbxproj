@@ -14,6 +14,7 @@
 		8616B8EC26F7494400F59897 /* AutomatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616B8EB26F7494400F59897 /* AutomatedView.swift */; };
 		8616B8EE26F74AF900F59897 /* FavouritedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616B8ED26F74AF900F59897 /* FavouritedView.swift */; };
 		8616B8F026F74E6E00F59897 /* BuildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616B8EF26F74E6E00F59897 /* BuildView.swift */; };
+		8616B8F326F74EE100F59897 /* LightChart in Frameworks */ = {isa = PBXBuildFile; productRef = 8616B8F226F74EE100F59897 /* LightChart */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8616B8F326F74EE100F59897 /* LightChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,9 @@
 			dependencies = (
 			);
 			name = SystemBuilder;
+			packageProductDependencies = (
+				8616B8F226F74EE100F59897 /* LightChart */,
+			);
 			productName = SystemBuilder;
 			productReference = 8616B8DA26F746B500F59897 /* SystemBuilder.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 8616B8D126F746B500F59897;
+			packageReferences = (
+				8616B8F126F74EE100F59897 /* XCRemoteSwiftPackageReference "LightChart" */,
+			);
 			productRefGroup = 8616B8DB26F746B500F59897 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -352,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8616B8F126F74EE100F59897 /* XCRemoteSwiftPackageReference "LightChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanengineer/LightChart";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8616B8F226F74EE100F59897 /* LightChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8616B8F126F74EE100F59897 /* XCRemoteSwiftPackageReference "LightChart" */;
+			productName = LightChart;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8616B8D226F746B500F59897 /* Project object */;
 }
