@@ -13,9 +13,11 @@ struct ContentView: View {
             VStack {
                 List {
                     Section(header: Text("System Builder")) {
-                        NavigationLink(destination: AutomatedView())
-                        {
+                        NavigationLink(destination: AutomatedView()){
                             Label("Build", systemImage: "macpro.gen3")
+                        }
+                        NavigationLink(destination: FavouritedView()) {
+                            Label("Favourites", systemImage: "heart")
                         }
                     }
                 }
