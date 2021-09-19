@@ -13,5 +13,8 @@ struct SystemBuilderApp: App {
         WindowGroup {
             ContentView()
         }
+        Settings {
+            SettingsView()
+        }
     }
 }
