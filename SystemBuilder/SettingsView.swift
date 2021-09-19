@@ -28,6 +28,7 @@ struct SettingsView: View {
                 Label("Settings", systemImage: "gear")
             }
         }
+        .frame(width: 500, height: 250)
     }
 }
 
