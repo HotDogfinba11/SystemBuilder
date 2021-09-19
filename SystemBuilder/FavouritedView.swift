@@ -44,6 +44,7 @@ struct FavouritedView: View {
                 }
             }
             .listStyle(DefaultListStyle())
+            .frame(minWidth: 220)
         }
     }
 }
