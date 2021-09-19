@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import LightChart
 
 struct BuildView: View {
     var body: some View {
