@@ -24,7 +24,26 @@ struct FavouritedView: View {
     ]
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List(PCList) { pclist in
+                NavigationLink(destination: BuildView()) {
+                    HStack {
+                        Image(pclist.icon)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 40, height: 40)
+                        VStack(alignment: .leading, spacing: 5, content: {
+                            Text(pclist.name)
+                                .font(.title2)
+                                .fontWeight(.bold)
+                            Text("\(pclist.type) PC, price of \(pclist.price)")
+                                .font(.caption)
+                                .foregroundColor(Color.secondary)
+                        })
+                    }
+                }
+            }
+        }
     }
 }
 
