@@ -24,6 +24,9 @@ struct SettingsView: View {
                     Label("Version 0", systemImage: "info.circle")
                 }
             }
+            .tabItem {
+                Label("Settings", systemImage: "gear")
+            }
         }
     }
 }
