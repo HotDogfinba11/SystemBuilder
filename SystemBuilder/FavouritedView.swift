@@ -43,6 +43,7 @@ struct FavouritedView: View {
                     }
                 }
             }
+            .listStyle(DefaultListStyle())
         }
     }
 }
