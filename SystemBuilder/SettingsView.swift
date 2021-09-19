@@ -18,6 +18,11 @@ struct SettingsView: View {
                         Text("Amazon")
                     })
                 }
+                Section(header: Text("About"),
+                        footer: Text("A-level programming project")) {
+                    Link("Source code is available on Github", destination: URL(string: "https://github.com/HotDogfinba11/SystemBuilder")!)
+                    Label("Version 0", systemImage: "info.circle")
+                }
             }
         }
     }
