@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8604EFCF26FCF4E2001CE247 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8604EFCE26FCF4E2001CE247 /* PythonKit */; };
 		8616B8DE26F746B500F59897 /* SystemBuilderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616B8DD26F746B500F59897 /* SystemBuilderApp.swift */; };
 		8616B8E026F746B500F59897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8616B8DF26F746B500F59897 /* ContentView.swift */; };
 		8616B8E226F746B500F59897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8616B8E126F746B500F59897 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8616B8F326F74EE100F59897 /* LightChart in Frameworks */,
+				8604EFCF26FCF4E2001CE247 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +101,7 @@
 			name = SystemBuilder;
 			packageProductDependencies = (
 				8616B8F226F74EE100F59897 /* LightChart */,
+				8604EFCE26FCF4E2001CE247 /* PythonKit */,
 			);
 			productName = SystemBuilder;
 			productReference = 8616B8DA26F746B500F59897 /* SystemBuilder.app */;
@@ -130,6 +133,7 @@
 			mainGroup = 8616B8D126F746B500F59897;
 			packageReferences = (
 				8616B8F126F74EE100F59897 /* XCRemoteSwiftPackageReference "LightChart" */,
+				8604EFCD26FCF4E2001CE247 /* XCRemoteSwiftPackageReference "PythonKit" */,
 			);
 			productRefGroup = 8616B8DB26F746B500F59897 /* Products */;
 			projectDirPath = "";
@@ -366,6 +370,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8604EFCD26FCF4E2001CE247 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		8616B8F126F74EE100F59897 /* XCRemoteSwiftPackageReference "LightChart" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sanengineer/LightChart";
@@ -377,6 +389,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8604EFCE26FCF4E2001CE247 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8604EFCD26FCF4E2001CE247 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
 		8616B8F226F74EE100F59897 /* LightChart */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8616B8F126F74EE100F59897 /* XCRemoteSwiftPackageReference "LightChart" */;
