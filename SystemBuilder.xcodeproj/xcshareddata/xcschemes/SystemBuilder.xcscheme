@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8616B8D926F746B500F59897"
                BuildableName = "SystemBuilder.app"
-               BlueprintName = "SystemBuilder"
+               BlueprintName = "System Builder"
                ReferencedContainer = "container:SystemBuilder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -31,9 +31,9 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      buildConfiguration = "Release"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -46,7 +46,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8616B8D926F746B500F59897"
             BuildableName = "SystemBuilder.app"
-            BlueprintName = "SystemBuilder"
+            BlueprintName = "System Builder"
             ReferencedContainer = "container:SystemBuilder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8616B8D926F746B500F59897"
             BuildableName = "SystemBuilder.app"
-            BlueprintName = "SystemBuilder"
+            BlueprintName = "System Builder"
             ReferencedContainer = "container:SystemBuilder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

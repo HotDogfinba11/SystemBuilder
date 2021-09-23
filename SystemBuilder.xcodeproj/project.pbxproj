@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		8604EFD026FCF6C5001CE247 /* SystemBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SystemBuilder.entitlements; sourceTree = "<group>"; };
-		8616B8DA26F746B500F59897 /* SystemBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8616B8DA26F746B500F59897 /* System Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "System Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8616B8DD26F746B500F59897 /* SystemBuilderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemBuilderApp.swift; sourceTree = "<group>"; };
 		8616B8DF26F746B500F59897 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8616B8E126F746B500F59897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		8616B8DB26F746B500F59897 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8616B8DA26F746B500F59897 /* SystemBuilder.app */,
+				8616B8DA26F746B500F59897 /* System Builder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8616B8D926F746B500F59897 /* SystemBuilder */ = {
+		8616B8D926F746B500F59897 /* System Builder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8616B8E826F746B500F59897 /* Build configuration list for PBXNativeTarget "SystemBuilder" */;
+			buildConfigurationList = 8616B8E826F746B500F59897 /* Build configuration list for PBXNativeTarget "System Builder" */;
 			buildPhases = (
 				8616B8D626F746B500F59897 /* Sources */,
 				8616B8D726F746B500F59897 /* Frameworks */,
@@ -100,13 +100,13 @@
 			);
 			dependencies = (
 			);
-			name = SystemBuilder;
+			name = "System Builder";
 			packageProductDependencies = (
 				8616B8F226F74EE100F59897 /* LightChart */,
 				8604EFCE26FCF4E2001CE247 /* PythonKit */,
 			);
 			productName = SystemBuilder;
-			productReference = 8616B8DA26F746B500F59897 /* SystemBuilder.app */;
+			productReference = 8616B8DA26F746B500F59897 /* System Builder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8616B8D926F746B500F59897 /* SystemBuilder */,
+				8616B8D926F746B500F59897 /* System Builder */,
 			);
 		};
 /* End PBXProject section */
@@ -226,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -281,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -306,6 +306,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -336,6 +337,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -362,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8616B8E826F746B500F59897 /* Build configuration list for PBXNativeTarget "SystemBuilder" */ = {
+		8616B8E826F746B500F59897 /* Build configuration list for PBXNativeTarget "System Builder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8616B8E926F746B500F59897 /* Debug */,
