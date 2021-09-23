@@ -6,10 +6,16 @@
 //
 
 import SwiftUI
+import PythonKit
 
 struct AutomatedView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: test) {
+            Text("Test")
+        }
+    }
+    func test() {
+        print(Python.versionInfo.description)
     }
 }
 

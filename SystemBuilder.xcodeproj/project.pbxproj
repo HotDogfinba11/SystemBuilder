@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8604EFD026FCF6C5001CE247 /* SystemBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SystemBuilder.entitlements; sourceTree = "<group>"; };
 		8616B8DA26F746B500F59897 /* SystemBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8616B8DD26F746B500F59897 /* SystemBuilderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemBuilderApp.swift; sourceTree = "<group>"; };
 		8616B8DF26F746B500F59897 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		8616B8DC26F746B500F59897 /* SystemBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				8604EFD026FCF6C5001CE247 /* SystemBuilder.entitlements */,
 				8616B8DD26F746B500F59897 /* SystemBuilderApp.swift */,
 				8616B8F626F7528F00F59897 /* SettingsView.swift */,
 				8616B8DF26F746B500F59897 /* ContentView.swift */,
@@ -293,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SystemBuilder/SystemBuilder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -322,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SystemBuilder/SystemBuilder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
