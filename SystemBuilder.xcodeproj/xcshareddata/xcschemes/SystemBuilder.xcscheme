@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8616B8D926F746B500F59897"
-               BuildableName = "SystemBuilder.app"
+               BuildableName = "System Builder.app"
                BlueprintName = "System Builder"
                ReferencedContainer = "container:SystemBuilder.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8616B8D926F746B500F59897"
-            BuildableName = "SystemBuilder.app"
+            BuildableName = "System Builder.app"
             BlueprintName = "System Builder"
             ReferencedContainer = "container:SystemBuilder.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8616B8D926F746B500F59897"
-            BuildableName = "SystemBuilder.app"
+            BuildableName = "System Builder.app"
             BlueprintName = "System Builder"
             ReferencedContainer = "container:SystemBuilder.xcodeproj">
          </BuildableReference>
