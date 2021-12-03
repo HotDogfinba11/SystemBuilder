@@ -13,15 +13,15 @@ struct AutomatedView: View {
            TabView {
                GenerationView()
                    .tabItem {
-                       Text("Sound Effects")
+                       Text("Gaming")
                    }
                GenerationView()
                    .tabItem {
-                       Text("Output")
+                       Text("Workstation")
                    }
                GenerationView()
                    .tabItem {
-                       Text("Input")
+                       Text("High-end Desktop")
                    }
            }
        }
