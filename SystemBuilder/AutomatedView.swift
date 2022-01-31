@@ -7,19 +7,20 @@
 
 import SwiftUI
 import PythonKit
+import LightChart
 
 struct AutomatedView: View {
        var body: some View {
            TabView {
-               GenerationView()
+               GamingView()
                    .tabItem {
                        Text("Gaming")
                    }
-               GenerationView()
+               WorkstationView()
                    .tabItem {
                        Text("Workstation")
                    }
-               GenerationView()
+               HighendView()
                    .tabItem {
                        Text("High-end Desktop")
                    }
@@ -33,8 +34,20 @@ struct AutomatedView_Previews: PreviewProvider {
     }
 }
 
-struct GenerationView: View {
+struct GamingView: View {
     var body: some View {
-        Text("build")
+        Text("GamingView")
+    }
+}
+
+struct  WorkstationView: View {
+    var body: some View {
+        Text("WorkstationView")
+    }
+}
+
+struct HighendView: View {
+    var body: some View {
+        Text("HighendView")
     }
 }
