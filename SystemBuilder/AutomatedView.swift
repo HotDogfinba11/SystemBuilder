@@ -35,8 +35,17 @@ struct AutomatedView_Previews: PreviewProvider {
 }
 
 struct GamingView: View {
+    @State private var sliderValue: String=""
+    
     var body: some View {
-        Text("GamingView")
+        VStack {
+            HStack(spacing: 25) {
+                Form {
+                    TextField("Budget", text: $sliderValue)
+                }
+                .frame(width: 200, height: 200)
+            }
+        }
     }
 }
 

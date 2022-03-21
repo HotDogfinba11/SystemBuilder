@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-@main
-struct SystemBuilderApp: App {
+@main // First struct to be ran at runtime
+struct SystemBuilderApp: App { // Initialises main window view
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        WindowGroup { // Defines content that is part of the program when compiling
+            ContentView() // Main view of the program, first to be rendered
         }
-        Settings {
+        Settings { // Swift's indication for which view shall be attached to settings
             SettingsView()
         }
     }
