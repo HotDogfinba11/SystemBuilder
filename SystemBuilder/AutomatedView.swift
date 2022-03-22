@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
-import PythonKit
-import LightChart
+import PythonKit // Implement Python code interoperability
+import LightChart // Custom charts package to be included
 
 struct AutomatedView: View {
        var body: some View {
-           TabView {
+           TabView { // Creates clickable tabs
                GamingView()
                    .tabItem {
                        Text("Gaming")
@@ -35,15 +35,15 @@ struct AutomatedView_Previews: PreviewProvider {
 }
 
 struct GamingView: View {
-    @State private var sliderValue: String=""
+    @State private var budgetValue: String="" // Default to empty string
     
     var body: some View {
         VStack {
-            HStack(spacing: 25) {
-                Form {
-                    TextField("Budget", text: $sliderValue)
+            HStack {
+                Form { // Field for user to enter a value manually
+                    TextField("Budget", text: $budgetValue) // Value of PC build, entered by user
                 }
-                .frame(width: 200, height: 200)
+                .frame(width: 200, height: 200) // Width and height in pixels
             }
         }
     }
